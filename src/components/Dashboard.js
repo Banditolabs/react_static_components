@@ -1,17 +1,17 @@
 import React from 'react'
 
-import Navigation from './components/Navigation'
-import WebsiteVisitors from './components/WebsiteVisitors'
-import Review from './components/Reviews'
-import AverageRating from './components/AverageRating'
-import CSAT from './components/CSAT'
+import Navigation from './Navigation'
+import WebsiteVisitors from './WebsiteVisitors'
+import Reviews from './Reviews'
+import AverageRating from './AverageRating'
+import CSAT from './CSAT'
 
-export default function (props) {
+export default function Dashboard (props) {
     return (
        <div>
            <Navigation />
            <WebsiteVisitors />
-           <Review />
+           <Reviews />
            <AverageRating />
            <CSAT />
        </div>

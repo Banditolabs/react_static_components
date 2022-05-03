@@ -1,6 +1,6 @@
 import Graph from './VisitorsGraph'
 
-export default function Ratings (props) {
+export default function WebsiteVisitors (props) {
     return (
         <div>
             <div>

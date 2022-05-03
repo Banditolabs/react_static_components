@@ -1,4 +1,4 @@
-export default function Ratings (props) {
+export default function VisitorsGraph (props) {
     return (
         <div>
             <div>

@@ -1,6 +1,6 @@
 
 
-export default function Ratings (props) {
+export default function CSAT (props) {
     return (
         <div>
             <div>
