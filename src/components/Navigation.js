@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Navigation (props) {
     return (
-        <div>
-            <nav>
+        <div className="dashboard-item">
+            <nav className='navigation'>
                 <p>Dashboard</p>
                 <p>Widget</p>
                 <p>Reviews</p>

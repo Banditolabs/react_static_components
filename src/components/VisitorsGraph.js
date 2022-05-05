@@ -1,8 +1,11 @@
+import graphImage from '../website-traffic-chart.png';
+
+
 export default function VisitorsGraph (props) {
     return (
-        <div>
+        <div className="dashboard-item">
             <div>
-                <graph></graph>
+                <img alt="graph" src={graphImage}/>
             </div>
         </div>
     )

@@ -2,10 +2,10 @@
 
 export default function AverageRating (props) {
     return (
-        <div>
+        <div className="dashboard-item">
             <div>
                 <p>
-                4.6
+                Average Rating: 4.6
                 </p>
             </div>
         </div>

@@ -13,6 +13,12 @@
   }
 }
 
+img {
+  height: 100%;
+ width: 100%;
+ object-fit: cover;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +34,30 @@
   color: #61dafb;
 }
 
+.navigation {
+  vertical-align: middle;
+}
+
+.dashboard {
+ border: 3px solid red;
+ display: flex;
+}
+
+.graph {
+  display: flex;
+}
+
+.stat-block {
+  display: flex;
+}
+
+.dashboard-item {
+  align-items: center;
+  /* border: 3px solid green; */
+  padding: 30px;
+  margin: 20px;
+  background-color: slategray;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

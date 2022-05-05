@@ -6,14 +6,25 @@ import Reviews from './Reviews'
 import AverageRating from './AverageRating'
 import CSAT from './CSAT'
 
+
 export default function Dashboard (props) {
     return (
-       <div>
-           <Navigation />
-           <WebsiteVisitors />
-           <Reviews />
-           <AverageRating />
-           <CSAT />
+       <div className='dashboard'>
+            
+            <Navigation />
+            
+            <div>
+            <div className='stat-block'>
+                <Reviews />
+                <AverageRating />
+                <CSAT />
+            </div>
+
+                <div className='graph'>
+                <WebsiteVisitors />
+                </div>
+            </div>
+                
        </div>
     );
 }

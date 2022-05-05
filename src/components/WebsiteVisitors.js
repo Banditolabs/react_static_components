@@ -2,10 +2,10 @@ import Graph from './VisitorsGraph'
 
 export default function WebsiteVisitors (props) {
     return (
-        <div>
+        <div className="dashboard-item">
             <div>
                 <p>
-                    821
+                   Website Visitors: 821
                 </p>
                 <div>
                     <Graph />

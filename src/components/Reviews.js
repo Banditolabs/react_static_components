@@ -1,10 +1,10 @@
 
 export default function Reviews (props) {
     return (
-        <div>
+        <div className="dashboard-item">
             <div>
                 <p>
-                4,000
+                Reviews: 4,000
                 </p>
             </div>
         </div>

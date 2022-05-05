@@ -2,10 +2,10 @@
 
 export default function CSAT (props) {
     return (
-        <div>
+        <div className="dashboard-item">
             <div>
                 <p>
-                    98%
+                CSAT: 98%
                 </p>
             </div>
         </div>
